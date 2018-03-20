@@ -1,0 +1,32 @@
+{
+  "name": "npm-build-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean:dist": "rimraf dist",
+    "css:dev":
+      "postcss src/assets/styles/main.css -u precss -o dist/assets/styles/main.css -w",
+    "css:prod":
+      "postcss src/assets/styles/main.css -u precss autoprefixer cssnano -o dist/assets/styles/main.css -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricka7x/npm-build-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ricka7x/npm-build-system/issues"
+  },
+  "homepage": "https://github.com/Ricka7x/npm-build-system#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.1.0",
+    "cssnano": "^3.10.0",
+    "postcss-cli": "^5.0.0",
+    "precss": "^3.1.2",
+    "rimraf": "^2.6.2"
+  }
+}

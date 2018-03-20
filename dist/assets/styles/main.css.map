@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/assets/styles/main.css"],"names":[],"mappings":"AAEA,KACE,qBAAyB,CAC1B","file":"main.css","sourcesContent":["$black: #000;\n\nbody {\n  background-color: $black;\n}\n"]}
